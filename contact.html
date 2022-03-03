@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Bootstrap Theme</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white p-0" id="main-nav">
+        <div class="container-fluid">
+            <a class="navbar-brand p-1" href="index.html">BOOKROOM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ml-3" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDown" role="button"
+                           data-toggle="dropdown">Books
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="new_books.html" style="background-color: #FF9F45">New Books</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="used_books.html" style="background-color: #FFBC80">Used Books</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex ml-3">
+                    <input class="form-control input-sm" type="text" placeholder="Search" style="width:350px;">
+                    <button class="btn btn-outline-info ml-2" type="submit">
+                        <i class="fas fa-search"></i> Search
+                    </button>
+                </form>
+                <form class="d-flex ml-5" action="shopping-cart.html">
+                    <button class="btn btn-outline-light ml-2" type="submit" style="color: #8267BE">
+                        <i class="fas fa-shopping-basket"></i> Basket
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+<!-- PAGE HEADER -->
+<header id="page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 m-auto text-center">
+                <h1>Contact Us</h1>
+                <p>On the other hand, we denounce with righteous indignation and dislike men who are
+                    so beguiled and demoralized.</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card p-4">
+                    <div class="card-body">
+                        <h4>Get In Touch</h4>
+                        <p>These cases are perfectly simple and easy to distinguish.</p>
+                        <hr>
+                        <div>
+                            <h4><i class="fas fa-home"></i> Address</h4>
+                        </div>
+                        <p>550 Main st, Boston MA</p>
+                        <div>
+                            <h4><i class="fas fa-envelope"> Email</i></h4>
+                        </div>
+                        <p>bookroom@gmail.com</p>
+                        <div>
+                            <h4><i class="fas fa-phone"> Phone</i></h4>
+                        </div>
+                        <p>(444) 659-2338</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card p-4">
+                    <div class="card-body">
+                        <h3 class="text-center">Please fill out this form to contact us</h3>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name and Surname">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Message" rows="5"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="submit" value="Submit" class="btn btn-outline-danger btn-block">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="main-footer" class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div id="footer" class="col text-center text-white py-1 mt-2">
+                <p>Copyright &copy;
+                    <span id="year"></span>
+                    BOOKROOM
+                </p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="py-1 p-2">
+                <a href="http://facebook.com">
+                   <i class="fab fa-facebook fa-lg" style="color: #8267BE"></i>
+                </a>
+            </div>
+            <div class="py-1 p-2">
+                <a href="http://twitter.com">
+                   <i class="fab fa-twitter fa-lg" style="color: #8267BE"></i>
+                </a>
+            </div>
+            <div class="py-1 p-2">
+                <a href="http://instagram.com">
+                    <i class="fab fa-instagram fa-lg" style="color: #8267BE"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+ <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+  <script>
+     // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    $('.port-item').click(function () {
+      $('.collapse').collapse('hide');
+    });
+  </script>
+</body>
+
+</html>
